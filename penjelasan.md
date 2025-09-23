@@ -16,15 +16,21 @@ Aplikasi Kalkulator Sederhana, terdapat 4 operasi
 
 - Pembagian
 
+Terdapat 5 pilihan
+
+1.Penjumlahan
+
+2.Pengurangan
+
+3.Perkalian
+
+4.Perkalian
+
+5.Keluar
+
 Program menerima input berupa
+
 - Pilihan(1-5)
-- 1. Penjumlahan
-
-- 2. Pengurangan
-
-- 3. Perkalian
-
-- 4. Pembagian
 
 - Input angka pertama 
 
