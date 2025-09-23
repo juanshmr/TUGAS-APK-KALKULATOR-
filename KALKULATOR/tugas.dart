@@ -7,7 +7,7 @@ double bagi(double a, double b) => b == 0 ? double.nan : a / b;
 
 void main() {
   while (true) {
-    print("\n=== Kalkulator Sederhana ===");
+    print("\n== APK Kalulator ==");
     print("1. Tambah");
     print("2. Kurang");
     print("3. Kali");
@@ -16,10 +16,6 @@ void main() {
     stdout.write("Pilih operasi (1-5): ");
     int pilihan = int.parse(stdin.readLineSync()!);
 
-    if (pilihan == 5) {
-      print("Terima kasih sudah menggunakan kalkulator!");
-      break;
-    }
     stdout.write("Masukkan angka pertama: ");
     double a = double.parse(stdin.readLineSync()!);
 
@@ -46,7 +42,7 @@ void main() {
     }
 
     if (hasil.isNaN) {
-      print("Error: Tidak bisa dibagi 0");
+      print("Tidak bisa dibagi nol");
     } else {
       print("Hasil: $hasil");
     }
