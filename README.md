@@ -8,17 +8,17 @@ Kelas : 5IF3
 # Deskripsi Program
 Kalkulator sederhana, dimana ada 6 pilihan:
 
-- 1. Penjumlaahn
+1. Penjumlaahn
   
-- 2. Pengurangan
+2. Pengurangan
   
-- 3. Perkalian
+3. Perkalian
   
-- 4. Pembagian
+4. Pembagian
   
-- 5. Modulus
+5. Modulus
   
-- 6. Keluar
+6. Keluar
 
 Program menerima input berupa
 - Pilihan (1-6)
